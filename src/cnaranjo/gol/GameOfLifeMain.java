@@ -23,6 +23,7 @@ public class GameOfLifeMain {
 	public static void main(String[] args) {
 		System.out.println("Ingrese el tamaño de la matriz:");
 		///cambios hotfix
+		// cambios feature
 		Scanner sc = new Scanner(System.in);
 		matrixLimit = sc.nextInt();
 		universeResponse = new boolean[matrixLimit][matrixLimit];
